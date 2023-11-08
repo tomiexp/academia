@@ -1,0 +1,72 @@
+.inscripciones_1{
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 96%;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+}
+
+.inscripciones_1 h1{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: #ff5100;
+    margin-bottom: 30px;
+}
+
+.inscripciones_2{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+}
+
+.curso{
+    width: 450px;
+    margin-bottom: 35px;
+    text-align: center;
+    transition: all 500ms;
+    cursor: pointer;
+    height: 500px;
+}
+
+.curso_info h2{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.curso_info p{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #ff3300;
+}
+
+.curso:hover{
+    scale: 1.05;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.curso img{
+    width: 400px;
+    height: 356px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1560px) {
+    .inscripciones_2{
+        grid-template-columns: repeat(2, 0fr);
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .inscripciones_2{
+        justify-content: center;
+        grid-template-columns: repeat(1, 0fr);
+    }
+}

@@ -1,0 +1,50 @@
+.imagenh img{
+    width: 1000px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.imagenh img:hover{
+    scale: 1.27;
+}
+.seccion_micuenta1 {
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 96%;
+    height: 990px;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_micuenta2 {
+    display: sticky;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: var(--color_text-primary);
+}
+.titulo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    padding-right: 150px;
+}
+.titulo h1{
+    font-size: 56px;
+    color: #ffffff;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-top: 2px;
+    letter-spacing: -10px;
+    background: #fe95d7;
+    border-radius: 0%;
+}

@@ -1,0 +1,130 @@
+.editar1 {
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 96%;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+}
+
+.titulo {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: #ff5100;
+}
+
+.editar2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-bottom: 100px;
+}
+
+.cuenta_perfil {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagenusuario {
+    margin: auto;
+    border: solid 5px #ff8c00;
+    width: 350px;
+    height: 350px;
+}
+
+.imagenusuario img {
+    width: 350px;
+    height: 350px;
+}
+
+.cuenta_info section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.lista{
+    width: 350px;
+}
+
+.cuenta_label {
+    color: #ff5100;
+    font-size: 18px;
+}
+
+.usuario_info {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cuenta_botones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+.botones_cuenta {
+    background: #ffffff5a;
+    color: var(--color_text-primary)x;
+    padding: 20px;
+    border: solid 2px #ff8c00;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 500ms;
+    margin-top: 40px;
+}
+
+.botones_cuenta:hover {
+    scale: 1.1;
+    color: var(--color_text-secondary);
+    background: linear-gradient(13deg, #fdaa61, #fe92a6, #fe95d7);
+}
+
+.campos{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #ff8c00;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color: black;
+}
+
+@media screen and (max-width: 1399px) {
+    .titulo{
+        margin-bottom: 25px;
+    }
+
+    .editar2{
+        display: unset;
+    }
+
+    .cuenta_perfil{
+        margin-bottom: 75px;
+    }
+
+    .cuenta_botones{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .cuenta_info section{
+        display: unset;
+    }
+
+    .lista{
+        margin: auto;
+    }
+}

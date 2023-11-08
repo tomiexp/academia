@@ -1,0 +1,215 @@
+.seccion_micuenta1 {
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 96%;
+    height: 990px;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_micuenta2 {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: var(--color_text-primary);
+}
+.form h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 10px;
+    background: #fe95d75a;
+    border-radius: 0%;
+}
+.form{
+   
+    margin-left: 60px;
+    position: sticky;
+    text-align: center;
+    left: 800px;
+    background: linear-gradient(135deg, #f185ac, #e7407b, #f185ac);
+    width: 1000px;
+    padding: 30px;
+    border-radius: 50px;
+    border: solid white;
+    border-width: 7px;
+    color: rgb(255, 255, 255);
+    box-shadow:
+    inset 0.1em 0.1em 1em rgba(0, 0, 0, 0.123),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3)
+}
+.checkbox{
+    margin: 01%;
+    margin-top: 07%;
+    margin-bottom: 07%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    padding: 0px;
+    text-align: left;
+}
+.jueves{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    border: #ffffff;
+    border-radius: 0%;
+    border-style: dashed;
+    border-bottom: #ffffff;
+    border-top: #ffffff;
+    border-left: #ffffff;
+
+    margin: -10%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding: 4px;
+    text-align: left;
+}
+.viernes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    border: #ffffff;
+    border-radius: 0%;
+    border-style: dashed;
+    border-bottom: #ffffff;
+    border-top: #ffffff;
+    border-left: #ffffff;
+
+    margin: -10%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding: 4px;
+    text-align: left;
+}
+.sabado{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    border: #ffffff;
+    border-radius: 0%;
+    border-style: dashed;
+    border-bottom: #ffffff;
+    border-top: #ffffff;
+    border-left: #ffffff;
+
+    margin: -10%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding: 0px;
+    text-align: left;
+}
+.domingo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    border: #ffffff;
+    border-radius: 0%;
+    border-style: dashed;
+    border-bottom: #ffffff;
+    border-top: #ffffff;
+    border-left: #ffffff;
+
+    margin: -10%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding: 0px;
+    text-align: left;
+}
+.festivo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    margin: -10%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    padding: 0px;
+    text-align: left;
+}
+.options{
+    background-color: #0000004a;
+    margin: 20px;
+    padding: 18px 15px;
+    border-radius: 5px;
+    align-items: center;
+    transition: max-height 01s;
+    overflow: hidden;
+}
+.boton{
+    padding: 20px 15px;
+    border: solid 2px #e7407b;
+    margin: 0px 20px;
+    transition: all 500ms;
+}
+.boton:hover{
+    color: var(--color_text-secondary);
+    background: linear-gradient(13deg, #fdaa61, #fe92a6, #fe95d7);
+}
+.logoey{
+    width: 20%;
+    position: absolute;
+    bottom: 1px;
+    left: 50px;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width:800px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    body{
+        background: #000;
+    }
+}
+@keyframes movimiento {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+.imagenes{
+    display: flex;
+    width: 400px;
+    height: 550px;
+    margin-top: 110px;
+    cursor: pointer;;
+}
+.imagenes img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.imagenes img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%)
+}

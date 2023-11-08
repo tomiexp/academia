@@ -1,0 +1,85 @@
+.seccion_micuenta1 {
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 96%;
+    height: 990px;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_micuenta2 {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: var(--color_text-primary);
+}
+.seccion_micuenta1 h1{
+    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    position: relative;
+}
+.jornadas{
+    position: relative; 
+}
+.columnas{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    display: flex;
+    justify-content: center;
+}
+.jornadas h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-orientation: upright;
+    text-transform: uppercase;
+    padding: 6px;
+    letter-spacing: 10px;
+    background: #fe95d7;
+    border-radius: 0%;
+
+}
+.caja1{
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20Px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.caja1:hover{
+    scale: 1.05;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.caja1 img{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.caja2 h2{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff5100;
+    margin-bottom: 40px;
+}
+.caja2 p{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}

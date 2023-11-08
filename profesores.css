@@ -1,0 +1,125 @@
+.seccion_micuenta1 {
+    background-color: #ffffffd8;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 96%;
+    height: 990px;
+    border: 2px solid;
+    border-color: var(--color_text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_micuenta2 {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: var(--color_text-primary);
+}
+.seccion_micuenta1 h1{
+    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    position: relative;
+}
+.titulo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-top: 2px;
+    letter-spacing: -10px;
+    right: 100px;
+    background: #fe95d7;
+    border-radius: 0%;
+}
+*{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}    
+.contenedor figure{
+    position: relative;
+    height: 700px;
+    width: 350px;
+    overflow: hidden;    
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    cursor: pointer;
+    
+}
+.contenedor figure img{
+    width: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 149, 215, 0.7);
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color:rgb(44, 44, 44);
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+} 
+
+@media (max-width: 768px) {
+    body{
+        width: 20%;
+        font-size: 14px;
+    }
+    .titulo, .contenedor, .seccion_micuenta1, .seccion_micuenta2{
+        width: 20%;
+        padding: 10px;
+    }
+    .contenedor figure, .contenedor figure img, .contenedor figure .capa{
+        width: 20%;
+        padding: 10px;
+    }
+}

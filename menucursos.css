@@ -1,0 +1,44 @@
+.campos{
+    margin: auto;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+}
+.lista {
+    color: var(--color_text-primary)x;
+    display: block;
+    padding: 30px 10px;
+    border: solid 2px #ff8c00;
+    font-weight: 500;
+    margin: 0px 10px;
+    transition: all 500ms ease-in-out;
+    text-align: center;
+}
+.lista:hover {
+    scale: 1.1;
+    color: var(--color_text-secondary);
+    background: linear-gradient(13deg, #fdaa61, #fe92a6, #fe95d7);
+}
+.menuc {
+    top: 20px;
+    width: 10%;
+    height: 990px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.menuc nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.menuc li{
+    margin-bottom: 50px;
+}
+.menuc nav ul li a {
+    color: var(--color_text-primary);
+    font-size: 20px;
+}
+.menuc nav ul li a:hover {
+    color: #ffffff;
+}

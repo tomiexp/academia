@@ -1,0 +1,196 @@
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+   float: left;
+   height: 1250px;
+   border-radius: 1px solid;
+   border: 2px solid #000;
+   background: #fff;
+
+
+
+}
+.titulo{
+
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    background-color:#AC005A;
+    background-size: auto;
+    border-radius: 0;
+    width: 99%;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 80px;
+
+}
+.info{
+    width:100%;
+    margin: 250px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+
+}
+.info h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #AC005A;
+    width: 900px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+
+
+
+
+
+
+}
+.info p{
+    margin-top:10px;
+    font-size: 24px;
+
+
+}
+.proceso{
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #AC005A;
+}
+.progress-bar {
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .progress {
+    width: 100%; /* Cambia este valor para ajustar el progreso */
+    height: 100%;
+    background-color: #AC005A; /* Color de la línea de progreso */
+    border-radius: 10px 10px 10px 10px;
+  }
+.idpago{
+    width: 59%;
+    margin-left: 250px;
+    margin-top: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+
+}
+.idpago h1{
+    background-color: #AC005A;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    padding-left: 130px;
+
+}
+.idpago label{
+    font-size: 50px;
+    border: #000;
+    padding-left: 250PX;
+
+}
+.factura{
+    width: 100%;
+    margin: 250px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+}
+.factura label{
+   color: #AC005A;
+   font-size: 26px;
+    margin-left: 100px;
+
+
+}
+.factura .pre{
+    color: #000;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+.factura span{
+    color:#AC005A;
+    font-size: 26px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+
+}
+.factura .fec{
+
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.factura .inf{
+    color: #000;
+    margin-left: 10px;
+}
+.explora h3{
+    font-size: 25px;
+    color: #AC005A;
+    margin-top: 40px;
+}
+.explora ul{
+display: flex;
+}
+.explora ul li{
+    display: flex;
+}
+.explora ul li a{
+    display: flex;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 65px;
+    color: #AC005A;
+    padding: 10px;
+    transition: 500ms;
+}
+.explora ul li a:hover{
+    scale: 1.1;
+    color: var(--color_text-secondary);
+    background: linear-gradient(13deg, #fdaa61, #fe92a6, #fe95d7);
+}
+.contac{
+    margin-top: 60px;
+
+}
+.contac h3{
+    font-size: 20px;
+    color: #AC005A;
+
+}
+.contac p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.contac p span{
+    color: #000;
+    margin: 0px;
+    font-size: 15px;
+}
+.fut{
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 0px;
+}

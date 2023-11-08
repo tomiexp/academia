@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(13deg, #fabd88, #f7c69b, #ffe0c4, #ffd7e0, #ffabe0, #ffa8df, #fe95d7);
+    background-size: 500%;
+    animation: movimiento 5s infinite;
+}
+
+@keyframes movimiento {
+    0%{
+    background-position: 0% 50%;
+    }    
+    50%{
+    background-position: 100% 50%;
+    }
+    100%{
+    background-position: 0% 50%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    
+}
+
+:root {
+    --color_text-primary: #000000;
+    --color_text-secondary: #ffffff;
+    --main_color-secondary: linear-gradient(13deg, #fabd88, #f7c69b, #ffe0c4, #ffd7e0, #ffabe0, #ffa8df, #fe95d7);
+}
+
+.principal{
+    max-width: 97%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.contenedor_info{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px 20px;
+    background: var(--color_text-secondary);
+    height: 610px;
+}
+.info{
+    margin: auto;
+    width: 500px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.info h1{
+    font-size: 40px;
+}
+.imagen img{
+    width: 50%;
+}
+.texto p{
+    font-size: 20.5px;
+    
+}
+
+.info1{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    animation: slide 20s linear infinite;
+}
+
+.slider img {
+    width: 540px;
+    border-radius: 0px;
+}
+
+.slider-container:hover{
+    scale: 1.05;
+    box-shadow: 0px 10px 20px #666;
+}
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-100%);
+    }
+    66.66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+ @media  screen and (max-width: 1100px  ) {
+    .contenedor_info{
+        height: 1200px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }
+
+ @media  screen and (max-width: 580px  ){
+
+    .contenedor_info{
+        justify-content: center;
+    }
+    .info{
+        width: 420px;
+    }
+    .info1{
+        width: 420px;
+    }
+ }
